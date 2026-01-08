@@ -23,7 +23,7 @@
   "html.format.wrapLineLength": 100,
   "html.format.wrapAttributesIndentSize": 2,
   "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.defaultFormatter": "vscode.html-language-features"
     },
   "css.format.enable": true,
   "css.format.maxPreserveNewLines": 2,
@@ -33,6 +33,7 @@
         "editor.defaultFormatter": "vscode.css-language-features",
     }
   // Git settings for beginners - simplify source control
+
   "git.enableSmartCommit": true, // automatically staged
   "git.confirmSync": false,
   "git.autofetch": true,
@@ -55,9 +56,10 @@
   // Live and Live/Five Server settings
   "fiveServer.port": 5501,
   "fiveServer.injectBody": false,
-  "liveServer.settings.port": 5504/
+  "liveServer.settings.port": 5504
 
-  // disable copilot chat
+
+
   "chat.agent.enabled": false,
   "chat.commandCenter.enabled": false,
   "inlineChat.accessibleDiffView": "off",
