@@ -1,0 +1,41 @@
+main img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 20px 30px solid black;
+}
+
+header,
+a {
+    display: left;
+    text-align: center;
+    background-color: blue;
+    padding: 4px;
+    margin: 4px;
+    color: white;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    /* 1️⃣ */
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+}
+
+p {
+    padding: 0;
+}
+
+footer {
+    margin-top: 40px;
+    border-top: 1px solid #333;
+    text-align: center;
+}
