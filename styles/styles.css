@@ -2,6 +2,7 @@ main {
     max-width: 840px;
     margin: 7px;
     padding: 4px;
+    margin: 0 auto;
 
 }
 
@@ -23,7 +24,6 @@ h1 {
 nav {
     background-color: #00f;
     padding: 4px;
-
 }
 
 nav a {
@@ -43,6 +43,7 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+    margin: 0 auto;
 }
 
 aside img {
