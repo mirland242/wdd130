@@ -18,7 +18,7 @@ main {
 }
 
 main img {
-
+    float: right;
     width: var(--main-width);
     height: var(--main-heigth);
     border: 10px solid var(--used-border);
@@ -26,7 +26,7 @@ main img {
     padding: var(--general-padding);
     /*# here*/
     box-shadow: 0 0 30px #333;
-
+    float: right;
 }
 
 h1 {
@@ -70,7 +70,6 @@ aside img {
     /*----*/
     height: var(--main-heigth);
     /*----*/
-
 }
 
 p {
