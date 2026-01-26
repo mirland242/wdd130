@@ -79,16 +79,14 @@ article {
 
 footer {
     border-top: 1px solid #333;
-    text-align: center;
-    background: #f5f5f5;
-    text-align: center;
+    background-color: #f5f5f5;
 
 }
 
 .socialmedia img {
-    width: 1rem;
+    width: 2rem;
     display: inline;
-
+    margin: 7px;
 }
 
 .hero {
