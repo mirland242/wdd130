@@ -93,6 +93,7 @@ footer {
 
 .hero {
     position: relative;
+    /*------*/
 
 }
 
@@ -103,22 +104,35 @@ footer {
 
 }
 
-h1 {
+div h1 {
+    /*--------*/
     position: absolute;
-    top: 20px;
+    top: 7px;
     width: 100%;
-    padding: 17px;
+    padding: 10px;
     text-align: center;
     background-color: #939
 }
 
-article {
+article img {
     position: absolute;
-    background-color: var(--secondary-background-color);
+    right: 10px;
+    margin: 4px;
+
+}
+
+article p {
+    position: absolute;
+    top: 60px;
+    background-color: var(--accent2-color);
+    margin: 10px;
+    display: inline;
+
 }
 
 .hero article img {
     float: right;
     top: 20px;
     width: 120px;
+
 }
