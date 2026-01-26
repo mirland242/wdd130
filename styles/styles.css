@@ -87,6 +87,7 @@ aside img {
     /*----*/
     height: var(--main-heigth);
     /*----*/
+
 }
 
 p {
@@ -96,6 +97,7 @@ p {
 
 footer {
     margin-top: 40px;
+    padding: 20px;
     border-top: 1px solid #333;
     text-align: center;
 }
@@ -111,11 +113,13 @@ footer {
     margin: 1rem;
     padding: 1rem;
     background-color: #eee;
+
 }
 
 aside h2 {
     position: absolute;
     width: 20rem;
+    bottom: auto;
     text-align: center;
     color: red;
     font-size: 1rem;
