@@ -1,0 +1,199 @@
+:root {
+    --primary-background-color: #aaf;
+    --secondary-background-color: #eee;
+    --heading-color: #00f;
+    /* dark slate blue */
+    --accent2-color: #e9c46a;
+    /* light golden yellow */
+    --heading-font: 'Franklin Gothic Medium',
+        'Arial Narrow',
+        --body-font: 'Arial, Helvetica, sans-serif';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+main {
+    font-family: var(--body-font);
+}
+
+header {
+    background-color: var(--heading-color);
+}
+
+header nav {
+
+    text-align: center;
+}
+
+/*ul -----------------------------------------------------------------{
+    list-style: none;
+    background-color: aqua;
+
+}
+
+ul li {
+    display: inline-flex;
+
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--secondary-background-color);
+    color: var(--primary-background-color);
+}
+
+li {
+    justify-content: space-between;
+    font-family: var(--heading-font);
+}---------------------------------------------------------------------------*/
+
+/*  This rule sets the positoins so absolute can be used in the hero div */
+.hero {
+    position: relative;
+}
+
+/* This rule sets the size of the background image */
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+/* This rule places the h1 tag over the image */
+.hero h1 {
+    position: absolute;
+    top: 1em;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #99339970
+}
+
+/* This rule places the article tag area over the image */
+.hero article {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    right: 30px;
+    background-color: #e9c46a87;
+    display: block;
+}
+
+/* This rule floats the image in the article tag to the right */
+.hero article img {
+    float: right;
+    width: 120px;
+    /* This next delaration sets a left margin only on the image so the text from the p tag
+    does not touch the image and you can read the text. */
+    margin: 0 0 0 30px;
+}
+
+h2 {
+    font-family: var(--body-font);
+    color: var(--accent2-color);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 17px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+footer {
+    border-top: 1px solid #333;
+    background-color: #f5f5f5;
+
+}
+
+.socialmedia img {
+    width: 2rem;
+    display: inline;
+    margin: 7px;
+}
+
+/*.hero -----------------------------------------------------------{
+    position: relative;
+
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+}
+
+div h1 {
+    position: absolute;
+    top: 7px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #939
+}
+
+article img {
+    position: absolute;
+    right: 10px;
+    margin: 4px;
+}
+article p {
+    position: absolute;
+    top: 60px;
+    background-color: var(--accent2-color);
+    margin: 10px;
+    display: inline;
+}
+.hero article img {
+    float: right;
+    top: 20px;
+    width: 120px;
+}-----------------------------------------------------------------------------*/
+
+ul {
+    list-style: none;
+    background-color: aqua;
+    display: flex;
+
+}
+
+ul li {
+    padding: 1em;
+    background-color: var(--secondary-background-color);
+    color: var(--secondary-background-color);
+    justify-content: space-between;
+    font-family: var(--heading-font);
+}
+
+/* These next 2 rules affect the <a href> tags */
+ul li a {
+    color: red;
+    text-decoration: none;
+    padding: 1em;
+}
+
+ul li a:hover {
+    color: #fff;
+    background-color: #f00;
+}
+
+/*article p {
+    color: #000000;
+}*/
