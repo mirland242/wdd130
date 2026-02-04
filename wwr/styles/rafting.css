@@ -1,7 +1,7 @@
 :root {
     --primary-background-color: #aaf;
-    --secondary-background-color: #eee;
-    --heading-color: #00f;
+    --secondary-background-color: #fffdfd;
+    --heading-color: rgb(103, 103, 241);
     /* dark slate blue */
     --accent2-color: #756439;
     /* light golden yellow */
@@ -186,7 +186,6 @@ ul li {
     padding: 1em;
     margin: 2px;
     background-color: var(--secondary-background-color);
-    color: var(--secondary-background-color);
     justify-content: space-between;
     font-family: var(--heading-font);
 
@@ -232,6 +231,6 @@ figure {
 
 figcaption {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(10, 185, 185);
+    color: rgb(3, 104, 104);
     margin: 1rem;
 }
