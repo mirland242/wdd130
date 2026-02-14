@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This page provide a responsive form ready to fill in.">
+    <meta name="author" content="Mirland TSATY">
+    <title>Table and forms</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<body>
+    <main>
+
+        <form action="#">
+
+            <label for="q1"><input type="checkbox" id="q1" name="q1">Basic HTML and CSS Quiz</label>
+
+            <fieldset>
+                <legend>Form to fill</legend>
+                <label for="q2"><span class="number">1.</span>What does the acronym CSS stand
+                    for?</label>
+                <input type="text" id="q2" name="q2">
+                <label for="q3"><span class="number">2.</span>How are id class attributes selected
+                    in CSS</label>
+                <textarea name="q3" id="q3" rows="4" cols="4" required></textarea>
+
+                <label for="q4"><span class="number">3.</span>Which of the following is a valid
+                    comment</label>
+                <select name="q4" id="q4">
+                    <option value="0">Choose One...</option>
+                    <option value="1">/*This is a comment*/</option>
+                    <option value="2">**-comment!-**</option>
+                </select>
+
+                <label for="q4"><span class="number">4.</span>What is the bottom margin given this
+                    declaration</label>
+                <p class="code">margin: 10px 7px 14px;</p>
+
+                <input type="text" id="q4" name="q4">
+
+            </fieldset>
+            <button type="submit">Submit Quiz</button>
+
+        </form>
+
+
+    </main>
+
+    <section>
+
+
+    </section>
+
+    <footer>
+
+        <h2>Forms</h2>
+        <form action="#">
+            <fieldset>
+                <legend>My first form</legend>
+                <label for="fullname">full name</label>
+                <input type="text" id="fullname" name="fullname">
+                <br>
+                <br>
+                <label for="pets"><input type="checkbox" id="pets" name="pets">Do you like
+                    pets?</label>
+                <br>
+                <br>
+                <label for="browser">Select browser</label>
+                <select name="name" id="browser">
+                    <option value="google">google</option>
+                    <option value="microsoft edge">microsoft edge</option>
+                    <option value="opera">opera mini</option>
+                </select>
+                <br>
+                <br>
+
+            </fieldset>
+
+        </form>
+
+        <p>Here is a simple table that shows student test scores:</p>
+
+        <h2>Table</h2>
+        <table>
+            <tr>
+                <th>Student Name</th>
+                <th>Math Score</th>
+                <th>Science Score</th>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td colspan="2">47</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>78</td>
+                <td>88</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Marcos</td>
+                <td>24</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>female</td>
+            </tr>
+        </table>
+
+    </footer>
+</body>
+
+</html>

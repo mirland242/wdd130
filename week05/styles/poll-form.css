@@ -1,0 +1,57 @@
+main {
+    font-size: 1.4;
+    font-weight: 700;
+    border: 1px solid rgb(30, 30, 12);
+    margin: 0 auto;
+    padding: 40px 70px;
+
+}
+
+fieldset {
+    margin: 20px 20px;
+    padding: 20px 30px;
+    background-color: rgb(174, 179, 194);
+}
+
+legend {
+    margin: 7px 7px;
+    color: chocolate;
+}
+
+.code {
+    background-color: rgb(3, 3, 57);
+    color: white;
+    padding: 7px;
+    margin: 0 auto;
+    width: fit-content;
+
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 2px;
+    /*border: 1px 1px solid #000;*/
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding-top: 20px;
+    margin: 10px 0 10px;
+
+}
+
+fieldset label {
+    padding: 20px 0 20px;
+}
+
+.number {
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(10, 10, 92);
+}
